@@ -2,16 +2,16 @@
   "name": "gum",
   "version": "1.0.0",
   "description": "",
-  "main": "scripts.js",
+  "main": "script.js",
   "scripts": {
     "start": "browser-sync start --server --files \"*.css, *.html, *.js\""
-  },
-  "engines": {
-    "node": "12.13.0"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.7"
+  },
+  "engines": {
+    "node": "11.6.0"
   }
 }
